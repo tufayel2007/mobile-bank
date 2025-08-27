@@ -131,7 +131,7 @@ document.getElementById("ADD-MONEY").addEventListener("click", function () {
   }
   document.getElementById("AddMoneyBtn").style.display = "block";
   function handleButtonToggle(id) {
-    const allButtons = document.getElementsByClassName("fur-btn");
+    const allButtons = document.getElementsByClassName(" form-btn");
 
     for (const btn of allButtons) {
       btn.classList.remove("border-[#0874f2]");
