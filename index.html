@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mobile bnk</title>
+    <!-- daisyui   link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- tailwind link  -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body
+    class="bg-[#f4f5f7] h-[100vh] flex flex-col justify-center items-center"
+  >
+    <div
+      class="bg h-[120px] w-[200px] bg-[url(./assets/bg.png)] bg-cover flex justify-center items-center"
+    >
+      <img src="./assets/Group.png" alt="" />
+    </div>
+    <form class="rounded-2xl p-5 bg-white">
+      <div>
+        <label class="font-semibold">Mobile Number</label><br />
+        <br />
+        <input
+          id="mobile-number"
+          type="text"
+          placeholder="Enter your Number"
+          class="input bg-[#f4f5f7] rounded-2xl"
+        /><br />
+        <br />
+        <label class="font-semibold" for="">4 Digit pin</label><br />
+        <br />
+        <input
+          id="pin-number"
+          type="text"
+          placeholder="Enter your pin"
+          class="input rounded-2xl"
+          class="input bg-[#f4f5f7]"
+        />
+      </div>
+      <br />
+      <button
+        type="button"
+        id="loginBtn"
+        class="btn btn-active btn-primary w-full rounded-3xl"
+      >
+        login
+      </button>
+    </form>
+
+    <!--   js folder -->
+    <script src="./index.js"></script>
+  </body>
+</html>
